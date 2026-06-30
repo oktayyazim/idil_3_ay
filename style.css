@@ -1,14 +1,13 @@
 body{
     margin:0;
-
-backround:linear-gradient(135deg,#ff9a9e,#fad0c4,#a18cd1);
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4,#a18cd1);
     font-family:Arial,sans-serif;
     text-align:center;
     color:white;
 }
 
 .hero{
-    margin-top:Ç120px;
+    margin-top:120px;
     padding:20px;
 }
 
@@ -33,7 +32,7 @@ button{
     padding:15px 35px;
     border:none;
     border-radius:50px;
-    backround:#ff4d6d;
+    background:#ff4d6d;
     color:white;
+    cursor:pointer;
 }
-
