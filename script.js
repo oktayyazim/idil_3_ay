@@ -1,5 +1,10 @@
 const button = document.querySelector("button");
+const mektup = document.getElementById("mektup");
 
 button.addEventListener("click", () => {
-    alert("Seniiii çokkk seviyorummm Aşkımmmmmmm ❤️");
+
+    mektup.style.display = "block";
+
+    button.style.display = "none";
+
 });
