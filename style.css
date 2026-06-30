@@ -1,26 +1,24 @@
-html, body{
-  margin:0;
-  padding: 0;
-  height:100%;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
 body {
-backround: red !important;
-    linear-gradient(135deg, #0f0f1a, #1a1a2e);
-  color: white;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 h1 {
-  font-size: 40px;
-  color: #ff4d6d;
+    margin-top: 120px;
+    font-size: 45px;
+    color: #ff4d6d;
 }
 
 h2 {
-  font-size: 22px;
-  color: #ffffff;
-  opacity: 0.9;
+    font-size: 24px;
+    color: #ffffff;
+    opacity: 0.9;
 }
