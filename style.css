@@ -1,21 +1,26 @@
-body{
+html, body{
   margin:0;
   padding: 0;
-  backround:
+  height:100%;
+}
+body {
+backround:
     linear-gradient(135deg, #0f0f1a, #1a1a2e);
   color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 
 h1 {
-   margin-top: 100px;
   font-size: 40px;
-  color: #ff4d6d
+  color: #ff4d6d;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 22px;
   color: #ffffff;
   opacity: 0.9;
 }
