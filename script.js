@@ -1,3 +1,7 @@
+const giris=document.getElementById("giris");
+const acBtn=document.getElementById("acBtn");
+
+document.querySelector(".hero").style.display="none";
 const button = document.querySelector("button");
 const mektup = document.getElementById("mektup");
 const kalpler = document.getElementById("kalpler");
@@ -26,5 +30,13 @@ button.addEventListener("click", () => {
         },4000);
 
     }
+
+});
+
+acBtn.addEventListener("click", () => {
+
+    giris.style.display = "none";
+
+    document.querySelector(".hero").style.display = "block";
 
 });
