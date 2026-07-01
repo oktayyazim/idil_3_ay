@@ -2,7 +2,7 @@ const giris=document.getElementById("giris");
 const acBtn=document.getElementById("acBtn");
 
 document.querySelector(".hero").style.display="none";
-const button = document.querySelector("button");
+const button = document.getElementById("sevBtn");
 const mektup = document.getElementById("mektup");
 const kalpler = document.getElementById("kalpler");
 
