@@ -40,3 +40,27 @@ acBtn.addEventListener("click", () => {
     document.querySelector(".hero").style.display = "block";
 
 });
+
+const buyukFoto = document.getElementById("buyukFoto");
+const buyukResim = document.getElementById("buyukResim");
+const kapat = document.getElementById("kapat");
+
+const fotograflar = document.querySelectorAll(".fotolar img");
+
+fotograflar.forEach((foto) => {
+
+    foto.addEventListener("click", () => {
+
+        buyukFoto.style.display = "flex";
+
+        buyukResim.src = foto.src;
+
+    });
+
+});
+
+kapat.addEventListener("click", () => {
+
+    buyukFoto.style.display = "none";
+
+});
