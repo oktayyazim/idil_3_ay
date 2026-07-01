@@ -136,3 +136,33 @@ transform:translateY(-15px);
 }
 
 }
+
+.galeri{
+    margin-top:80px;
+    padding-bottom:80px;
+}
+
+.galeri h2{
+    margin-bottom:30px;
+}
+
+.fotolar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.fotolar img{
+    width:220px;
+    height:300px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.fotolar img:hover{
+    transform:scale(1.06);
+}
